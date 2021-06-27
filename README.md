@@ -27,7 +27,6 @@ Libraries used
 * Tensorflow/Keras
 * Pandas
 * Numpy
-* OS
 * Matplotlib
 
 Dataset
