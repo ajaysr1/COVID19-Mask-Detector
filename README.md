@@ -45,13 +45,14 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 | Activation Function| ReLu                |
 | Loss Function      | Binary Cross Entropy|
 
+* [Adam Optimizer](https://github.com/ajaysr1/COVID19-Mask-Detector/blob/main/Adam.md)
+* [MTCNN](https://github.com/ajaysr1/COVID19-Mask-Detector/blob/main/MTCNN.md)
 
 ## Model Visualization
 <p align="center">
   <img src="savemodel.h5.svg">
 </p>
 
-## Face Detection (MTCNN)
 
 
 ## Impact
