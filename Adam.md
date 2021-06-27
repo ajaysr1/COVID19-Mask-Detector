@@ -38,7 +38,7 @@ W<sub>t+1</sub> = weights at time t+1 <br/>
 α<sub>t</sub> = learning rate at time t <br/>
 ∂<sub>L</sub> = derivative of Loss Function <br/>
 ∂W<sub>t</sub> = derivative of weights at time t <br/>
-V<sub>t</sub> = sum of square of past gradients (initially, V<sub>t</sub> = 0) <br/>
+v<sub>t</sub> = sum of square of past gradients (initially, v<sub>t</sub> = 0) <br/>
 β = Moving average parameter (const, 0.9) <br/>
 ϵ = A small positive constant (10-8) <br/>
 
@@ -54,9 +54,13 @@ We rate of gradient descent is controlled in such a way that the step-size reduc
 β<sub>1</sub> & β<sub>2</sub> = decay rates of average of gradients in the above two methods. (β<sub>1</sub> = 0.9 & β<sub>2</sub> = 0.999) <br/>
 α — Step size parameter / learning rate (0.001) <br/>
 
+Now, m<sub>t</sub> and v<sub>t</sub> both have been initialized as '0'. So, they gain a tendency to be baised towards '0'. To prevent this, Adam used 'bias-corrected' m<sub>t</sub> and v<sub>t</sub>.
+
 <p align="center">
   <img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-de49f2b3fa2b380dc7a56e824805c49a_l3.svg" width="25%"></img></br>
 </p>
+
+So the general equation that Adam uses is -
 <p align="center">
   <img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-627062af6c0d34dae31b75b634c2e2cb_l3.svg" width="30%"></img></br>
 </p>
