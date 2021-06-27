@@ -32,7 +32,19 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 
 
 ## Model
-
+|        Name        |        Value        |
+| :----------------: | :----------------:  |
+| Optimizer          |        Adam         |
+| Learning rate      |        0.001        |
+| Epsilon            |        0.01         |
+| β1                 |         0.9         |
+| β2                 |        0.999        |
+| Epochs             |         40          |
+| Batch size         |         32          |
+| Dropout            |     0.25, 0.5       |
+| Activation Function|        ReLu         |
+| Loss Function      | Binary Cross Entropy|
+| 
 
 ## Face Detection (MTCNN)
 
