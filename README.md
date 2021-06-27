@@ -31,6 +31,13 @@ Developed a face mask detector with 99% accuracy. It can automatically detect wh
 ## Dataset
 
 
+## Generating the Training Data
+* Imported the dataset, and retained only those images with a classname either 'face_with_mask' or 'face_without_mask'.
+* Generated the training and testing sets of unique images.
+* Created a new column containing the coordinates of bounding box(es), and wrote a function to draw them.
+* Constructed the final training data by cropping it to the bounding boxes.
+* Normalized the training data before feeding in the model.
+
 ## Model
 |        Name        |        Value        |
 | :----------------: | :----------------:  |
@@ -53,7 +60,17 @@ Developed a face mask detector with 99% accuracy. It can automatically detect wh
   <img src="modelVisualization.svg">
 </p>
 
-## How the code works?
-* Imported the dataset, 
+## Results
+The final accuracy obtained by the model was 99.38% on the training data with a loss of 0.0200. <br/>
+<p align="center">
+  <img src="Accuracy and Loss Image.png">
+</p>
 
-## Impact
+## Impact and Future Scope
+* Our model can be used to keep a check on people, whether they are obeying the pandemic guidelines or not, in crowded areas.
+* It can be improved to use in CCTV cameras by adding a video feature.
+
+## Team
+* Yatharth Gupta
+* Vatsal Karwa
+* Ajay Sinhmar
