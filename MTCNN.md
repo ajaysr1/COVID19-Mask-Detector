@@ -36,7 +36,7 @@ It is a binary classification problem, and it uses cross-entropy loss fucntion.
 <p align="center"> <b>
   𝐿<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup> = − (𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>𝑙𝑜𝑔(𝑝<sub>i</sub>) + (1 − 𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>)(1 − 𝑙𝑜𝑔(𝑝<sub>i</sub>))) </b>
 </p> <br/>
-p<sub>i</sub> = probability that the face predicted by MTCNN is actually a face <br/>
+𝑝<sub>i</sub> = probability that the face predicted by MTCNN is actually a face <br/>
 𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup> = ground truth. It is either 0 or 1. <br/> <br/>
 
 * <b> Bounding Box Regression </b> <br/>
@@ -56,3 +56,6 @@ It is similar to Bounding Box Regression problem. The loss function used is squa
   </p> <br/>
 𝑦<sub>𝑖</sub><sup>^𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = predicted output. <br/>
 𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ground truth. <br/> <br/>
+
+* <b> Non-Maximum Suppression (NMS) </b>
+While extracting bounding boxes, there are cases when they overlap with each other. NMS is method to get rid of those redundant boxes.
