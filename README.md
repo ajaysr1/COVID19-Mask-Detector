@@ -45,6 +45,12 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 | Activation Function| ReLu                |
 | Loss Function      | Binary Cross Entropy|
 
+
+## Model Visualization
+<p align="center">
+  <img src="savemodel.h5.svg">
+</p>
+
 ## Face Detection (MTCNN)
 
 
