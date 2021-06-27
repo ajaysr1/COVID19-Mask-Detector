@@ -53,7 +53,7 @@ It is similar to Bounding Box Regression problem. The loss function used is squa
 
 <p align="center"> <b>
   𝐿<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ||𝑦<sub>𝑖</sub><sup>^𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> − 𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup>||<sup>2</sup> </b>
-  </p> <br/>
+</p> <br/>
 𝑦<sub>𝑖</sub><sup>^𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = predicted output. <br/>
 𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ground truth. <br/> <br/>
 
