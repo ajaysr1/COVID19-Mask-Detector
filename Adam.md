@@ -7,4 +7,4 @@ To understand the working of Adam, we need to first understand the above-mention
 ## Gradient Descent with Momentum
 To converge at the minima at a faster rate, this algorithm uses 'exponentially weighted average' of gradients to accelerate the gradient descent algorithm.
 
-W<sub>t+1</sub> = 
+W<sub>t+1</sub> = W<sub>t</sub> - αm<sub>t</sub>
