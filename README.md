@@ -49,3 +49,6 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 
 
 ## Impact
+
+
+<img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-11485c48aad57c3897036904bff90924_l3.svg" width="30%"></img>
