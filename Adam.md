@@ -14,8 +14,8 @@ where, <br/>
   <img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-11485c48aad57c3897036904bff90924_l3.svg" width="30%"></img></br>
 </p>
 
-m<sub>t</sub> = aggregate of gradients at time t [current] (initially, mt = 0) <br/>
-m<sub>t-1</sub> = aggregate of gradients at time t-1 [previous] <br/>
+m<sub>t</sub> = aggregate of gradients at time t(current) (initially, m<sub>t</sub> = 0) <br/>
+m<sub>t-1</sub> = aggregate of gradients at time t-1(previous) <br/>
 W<sub>t</sub> = weights at time t <br/>
 W<sub>t+1</sub> = weights at time t+1 <br/>
 α<sub>t</sub> = learning rate at time t <br/>
@@ -38,7 +38,7 @@ W<sub>t+1</sub> = weights at time t+1 <br/>
 α<sub>t</sub> = learning rate at time t <br/>
 ∂<sub>L</sub> = derivative of Loss Function <br/>
 ∂W<sub>t</sub> = derivative of weights at time t <br/>
-V<sub>t</sub> = sum of square of past gradients. [i.e sum(∂L/∂Wt-1)] (initially, Vt = 0) <br/>
+V<sub>t</sub> = sum of square of past gradients (initially, V<sub>t</sub> = 0) <br/>
 β = Moving average parameter (const, 0.9) <br/>
 ϵ = A small positive constant (10-8) <br/>
 
