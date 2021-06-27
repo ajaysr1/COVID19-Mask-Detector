@@ -58,4 +58,4 @@ It is similar to Bounding Box Regression problem. The loss function used is squa
 𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ground truth. <br/> <br/>
 
 * <b> Non-Maximum Suppression (NMS) </b>
-While extracting bounding boxes, there are cases when they overlap with each other. NMS is method to get rid of those redundant boxes.
+While extracting bounding boxes, there are many cases when they overlap with each other. NMS is method to get rid of those redundant boxes.
