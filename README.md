@@ -6,6 +6,9 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 * Motivation
 * Libraries used
 * Dataset
+* Model
+* Face Detection (MTCNN)
+* Impact
 
 ## Overview
 * In Covid 19 Mask Detector we used OpenCV, Tensorflow/Keras, and Deep Learning.
@@ -26,3 +29,12 @@ Developed a face mask detector with 98% accuracy. It can automatically detect wh
 * Matplotlib
 
 ## Dataset
+
+
+## Model
+
+
+## Face Detection (MTCNN)
+
+
+## Impact
