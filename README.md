@@ -1,5 +1,5 @@
 # COVID19-Mask-Detector
-Developed a face mask detector with 98% accuracy. It can automatically detect whether people in the image are wearing masks or not.
+Developed a face mask detector with 99% accuracy. It can automatically detect whether people in the image are wearing masks or not.
 
 ## Table of Content
 * Overview
