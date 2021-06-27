@@ -31,7 +31,7 @@ This is also a CNN, similar to R-Net. The output from R-Net is fed in O-Net. Thi
 
 ## Training Method
 * <b> Face Classification </b> <br/>
-It is a binary classification problem, and it uses cross-entropy loss.
+It is a binary classification problem, and it uses cross-entropy loss fucntion.
 
 <p align="center"> <b>
   𝐿<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup> = − (𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>𝑙𝑜𝑔(𝑝<sub>i</sub>) + (1 − 𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>)(1 − 𝑙𝑜𝑔(𝑝<sub>i</sub>))) </b>
@@ -40,10 +40,19 @@ p<sub>i</sub> = probability that the face predicted by MTCNN is actually a face 
 𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup> = ground truth. It is either 0 or 1. <br/> <br/>
 
 * <b> Bounding Box Regression </b> <br/>
-This is a regression problem problem. The loss function used is square loss function
+This is a regression problem problem. The loss function used is square loss function.
 
 <p align="center"> <b>
   𝐿<sub>𝑖</sub><sup>𝑏𝑜𝑥</sup> = ||𝑦<sub>𝑖</sub><sup>^𝑏𝑜𝑥</sup> − 𝑦<sub>𝑖</sub><sup>𝑏𝑜𝑥</sup>||<sup>2</sup> </b>
   </p> <br/>
 𝑦<sub>𝑖</sub><sup>^𝑏𝑜𝑥</sup> = predicted output. <br/>
 𝑦<sub>𝑖</sub><sup>𝑏𝑜𝑥</sup> = ground truth. <br/> <br/>
+
+* <b> Face Landmark Detection </b> <br/>
+It is similar to Bounding Box Regression problem. The loss function used is square loss function.
+
+<p align="center"> <b>
+  𝐿<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ||𝑦<sub>𝑖</sub><sup>^𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> − 𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup>||<sup>2</sup> </b>
+  </p> <br/>
+𝑦<sub>𝑖</sub><sup>^𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = predicted output. <br/>
+𝑦<sub>𝑖</sub><sup>𝑙𝑎𝑛𝑑𝑚𝑎𝑟𝑘</sup> = ground truth. <br/> <br/>
