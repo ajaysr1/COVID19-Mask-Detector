@@ -53,6 +53,7 @@ Developed a face mask detector with 99% accuracy. It can automatically detect wh
   <img src="modelVisualization.svg">
 </p>
 
-
+## How the code works?
+* Imported the dataset, 
 
 ## Impact
