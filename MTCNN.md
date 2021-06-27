@@ -31,7 +31,7 @@ This is also a CNN, similar to R-Net. The output from R-Net is fed in O-Net. Thi
 
 ## Training Method
 * <b> Face Classification </b> <br/>
-It is a binary classification problem, and it uses cross-entropy loss fucntion.
+It is a binary classification problem, and it uses cross-entropy loss function.
 
 <p align="center"> <b>
   𝐿<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup> = − (𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>𝑙𝑜𝑔(𝑝<sub>i</sub>) + (1 − 𝑦<sub>𝑖</sub><sup>𝑑𝑒𝑡</sup>)(1 − 𝑙𝑜𝑔(𝑝<sub>i</sub>))) </b>
