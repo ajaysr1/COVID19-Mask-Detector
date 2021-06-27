@@ -8,7 +8,7 @@ To understand the working of Adam, we need to first understand the above mention
 To converge at the minima at a faster rate, this algorithm uses 'exponentially weighted average' of gradients to accelerate the gradient descent algorithm.
 <p align="center">
   <img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-a689bde5453a6f62ce674379f21713ef_l3.svg" width="20%">
-</p>
+</p> 
 where, <br/>
 <p align="center">  
   <img src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-11485c48aad57c3897036904bff90924_l3.svg" width="30%"></img></br>
