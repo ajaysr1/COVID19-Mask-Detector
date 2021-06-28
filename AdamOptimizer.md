@@ -1,5 +1,5 @@
 # Adam Optimizer
-Adaptive Momen Estimation is an algorithm that optimizes the gradient descent. It is a combination of 'Gradient Descent with Momentum' algorithm and the 'RMSP' algorithm.
+Adaptive Moment Estimation is an algorithm that optimizes the gradient descent. It is a combination of 'Gradient Descent with Momentum' algorithm and the 'RMSP' algorithm.
 It is well suited for problems that are large in terms of data and/or parameters.
 
 To understand the working of Adam, we need to first understand the above mentioned algorithms.
