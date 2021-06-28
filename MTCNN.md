@@ -1,5 +1,5 @@
 # Multi-Task Cascaded Convolutional Neural Networks (MTCNN)
-MTCNN is a combined CNN model and it has three stages - P-Net, R-Net, and O-net. This model deals with face area detection and facial feature detection. It is used to get facial landmarks, bounding box of the face, and the score (confidence on bounding box).
+MTCNN is a combined CNN model and it ha three stages - P-Net, R-Net, and O-net. This model deals with face area detection and facial feature detection. It is used to get facial landmarks, bounding box of the face, and the score (confidence on bounding box).
 
 ## Stages of MTCNN
 Firsty, MTCNN takes the images and resize it to different scales so as to create an image pyramid which is then used as the input for the three stages.
