@@ -6,7 +6,7 @@ Developed a face mask detector with 99% accuracy. It can automatically detect wh
 * [Motivation](https://github.com/ajaysr1/COVID19-Mask-Detector#motivation)
 * [Libraries used](https://github.com/ajaysr1/COVID19-Mask-Detector#libraries-used)
 * [Dataset](https://github.com/ajaysr1/COVID19-Mask-Detector#dataset)
-* [Generating the Training Data](https://github.com/ajaysr1/COVID19-Mask-Detector#generating-the-training-set)
+* [Generating the Training Data](https://github.com/ajaysr1/COVID19-Mask-Detector#generating-the-training-data)
 * [Model](https://github.com/ajaysr1/COVID19-Mask-Detector#model)
 * [Model Visualization](https://github.com/ajaysr1/COVID19-Mask-Detector#model-visualization)
 * [Results](https://github.com/ajaysr1/COVID19-Mask-Detector#results)
