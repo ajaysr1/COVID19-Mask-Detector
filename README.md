@@ -29,7 +29,7 @@ Developed a face mask detector with 99% accuracy. It can automatically detect wh
 * Matplotlib
 
 ## Dataset
-
+https://github.com/ajaysr1/COVID19-Mask-Detector/tree/master/DataSet
 
 ## Generating the Training Data
 * Imported the dataset, and retained only those images with a classname either 'face_with_mask' or 'face_without_mask'.
