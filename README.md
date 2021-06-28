@@ -2,13 +2,16 @@
 Developed a face mask detector with 99% accuracy. It can automatically detect whether people in the image are wearing masks or not.
 
 ## Table of Content
-* Overview
-* Motivation
-* Libraries used
-* Dataset
-* Model
-* Face Detection (MTCNN)
-* Impact
+* [Overview](https://github.com/ajaysr1/COVID19-Mask-Detector#overview)
+* [Motivation](https://github.com/ajaysr1/COVID19-Mask-Detector#motivation)
+* [Libraries used](https://github.com/ajaysr1/COVID19-Mask-Detector#libraries-used)
+* [Dataset](https://github.com/ajaysr1/COVID19-Mask-Detector#dataset)
+* [Generating the Training Data](https://github.com/ajaysr1/COVID19-Mask-Detector#generating-the-training-set)
+* [Model](https://github.com/ajaysr1/COVID19-Mask-Detector#model)
+* [Model Visualization](https://github.com/ajaysr1/COVID19-Mask-Detector#model-visualization)
+* [Results](https://github.com/ajaysr1/COVID19-Mask-Detector#results)
+* [Impact and Future Scope](https://github.com/ajaysr1/COVID19-Mask-Detector#impact-and-future-scope)
+* [Team](https://github.com/ajaysr1/COVID19-Mask-Detector#team)
 
 ## Overview
 * In Covid 19 Mask Detector we used OpenCV, Tensorflow/Keras, and Deep Learning.
