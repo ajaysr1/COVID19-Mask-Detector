@@ -37,7 +37,7 @@ while True:
         
             #Calling the predict method on model to predict current face on the image
             prediction = int(model.predict(img_cropped)[0][0])
-            #if prediction is 0, which means I am missing on the image, then show the red color, else show green color rectangle.
+            #if prediction is 0, mask is not present on current face, then show the red color, else show green color rectangle.
             if prediction == 0:
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0,0,255), 2)
             else:
