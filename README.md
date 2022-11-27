@@ -76,3 +76,4 @@ The final accuracy obtained by the model was 99.38% on the training data with a 
 ## Team
 * Vatsal Karwa
 * Ajay Sinhmar
+* Yatharth Gupta
