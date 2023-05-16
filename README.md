@@ -74,6 +74,7 @@ The final accuracy obtained by the model was 99.38% on the training data with a 
 * It can be improved to use in CCTV cameras by adding a video feature.
 
 ## Team
+* Rohit Kale
 * Vatsal Karwa
 * Ajay Sinhmar
 * Yatharth Gupta
